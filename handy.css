@@ -1,0 +1,39 @@
+body {
+	font-family: 'Archivo', sans-serif;
+}
+#navBar {
+	font-size: 20px;
+	line-height: 20px;
+	text-align: middle;
+	margin-right: 80px;
+	margin-top: 50px;
+}
+ul {
+	list-style: none;
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+.header {
+	width: 100%;
+	left: 10px;
+	position: absolute;
+}
+div.logo {
+	margin-top: 10px;
+	margin-left: 600px;	
+}
+.slider {
+	margin-left: 30px;
+	position: absolute;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 500px;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	margin-top: 830px
+}
