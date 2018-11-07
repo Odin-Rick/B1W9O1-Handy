@@ -1,12 +1,18 @@
+.page {
+	width: 1000px;
+	margin: 0 auto;
+}
 body {
 	font-family: 'Archivo', sans-serif;
 }
 #navBar {
 	font-size: 20px;
-	line-height: 20px;
-	text-align: middle;
-	margin-right: 80px;
-	margin-top: 50px;
+	line-height: 30px;
+	
+	background-color: #222931;
+	width: 950px;
+	display: inline-block;
+
 }
 ul {
 	list-style: none;
@@ -14,26 +20,93 @@ ul {
 }
 li {
 	display: inline-block;
+	
+	float: left;
+	margin-bottom: 20px;
 }
 .header {
 	width: 100%;
-	left: 10px;
+	left: 0;
 	position: absolute;
+	z-index: -1;
 }
-div.logo {
-	margin-top: 10px;
-	margin-left: 600px;	
+div.logo {	
+	margin-left: 30px;	
 }
 .slider {
-	margin-left: 30px;
+	
 	position: absolute;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	margin-top: 500px;
+	display: inline-block;
+	grid-template-columns: 15px;
+	margin-top: 475px;
+	
+}
+.slider > img {
+	margin: 10px;
+	
 }
 .footer {
 	width: 100%;
 	position: absolute;
+	margin-top: 830px;
 	left: 0;
-	margin-top: 830px
 }
+header {
+	height: 115px;	 
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.logo {
+	padding-top: 55px;
+	margin-left: 30px;	
+}
+.YellowBanner{
+    width: 100%;
+    height: 150px;
+    background-color: #ffe718;
+    position: absolute;
+    
+    margin-top: 710px;
+    left: 0px;
+}
+
+.YellowBanner > h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #222931;
+    
+    position: absolute;
+    left: 220px;
+    top: 25px;
+}
+
+.test {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222931;
+
+    position: absolute;
+    left: 500px;
+    padding-right: 100px;
+    
+   	
+
+
+  }
+.info {
+    position: absolute;
+    top: 46px;
+    left: 1100px;
+
+    background-color: white;
+    border: none;
+    display: block;
+    
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+
