@@ -131,7 +131,7 @@ a {
 }
 .fas{
 	padding-left: 0px;
-
+	float: left;
 }
 .far{
 	float: left;
@@ -146,13 +146,11 @@ footer {
 	top: 130px;
 	width: 429px;
 }
-
 .footertext > h2 {
 	color: #222931;
 	font-size: 24px;
 	font-weight: 600;
 }
-
 .footertext > p {
 	margin: 0;
 	padding: 0;
@@ -170,8 +168,23 @@ footer {
 .footerinfo > div > i {
 	color: #aeb6be;
 }
-
 .footerinfo > div > p {
-	margin: 20px;
 	padding: 0px;
+}
+.bottomfooter {
+	background-color: #222931;
+	height: 50px;
+	position: relative;
+	top: 160px;
+}
+
+.bottomfooter > h2 {
+	color: white;
+	margin-right: 200px;
+	margin-top: 15px;
+	font-style: 12px;
+	font-weight: 400px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 5px;
 }
