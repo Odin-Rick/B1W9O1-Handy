@@ -7,20 +7,17 @@ body {
 }
 #navBar {
 	font-size: 20px;
-	line-height: 30px;
-	
+	line-height: 30px;	
 	background-color: #222931;
 	width: 950px;
 	display: inline-block;
-
 }
 ul {
 	list-style: none;
 	text-align: center;
 }
 li {
-	display: inline-block;
-	
+	display: inline-block;	
 	float: left;
 	margin-bottom: 20px;
 }
@@ -33,30 +30,29 @@ li {
 div.logo {	
 	margin-left: 30px;	
 }
-.slider {
-	
+.slider {	
 	position: absolute;
 	display: inline-block;
 	grid-template-columns: 15px;
-	margin-top: 475px;
-	
+	margin-top: 485px;	
 }
 .slider > img {
-	margin: 10px;
-	
+	margin: 10px;	
 }
-.footer {
+.groot {
 	width: 100%;
 	position: absolute;
 	margin-top: 830px;
 	left: 0;
+	margin-top: 950px;
 }
 header {
-	height: 115px;	 
+	height: 115px;	
 }
 a {
 	text-decoration: none;
 	color: white;
+	margin-left: 20px;
 }
 .logo {
 	padding-top: 55px;
@@ -66,47 +62,116 @@ a {
     width: 100%;
     height: 150px;
     background-color: #ffe718;
-    position: absolute;
-    
+    position: absolute;   
     margin-top: 710px;
     left: 0px;
+    margin-top: 750px;
 }
-
 .YellowBanner > h1 {
     font-size: 34px;
-    font-weight: 700;
-    color: #222931;
-    
+    font-weight: 600;
+    color: #222931;   
     position: absolute;
     left: 220px;
-    top: 25px;
+    top: 40px;  
 }
-
 .test {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: #222931;
-
     position: absolute;
-    left: 500px;
-    padding-right: 100px;
-    
-   	
-
-
-  }
+    left: 700px;
+    border: none;
+    top: 60px;
+}
 .info {
     position: absolute;
-    top: 46px;
+    top: 55px;
     left: 1100px;
-
     background-color: white;
     border: none;
-    display: block;
-    
+    display: block;    
     text-align: center;
     font-size: 12px;
     font-weight: 500;
     padding: 10px 50px;
 }
+.geel {
+	display: inline-block;
+	background-color: #ffe718;
+	width: 300px;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.geel2 {
+	display: inline-block;
+	background-color: #ffe718;
+	width: 300px;
+	text-align: center;
+	margin: 0px;
+}
+.geel3 {
+	display: inline-block;
+	background-color: #ffe718;
+	width: 300px;
+	text-align: center;
+	margin-left: 20px;
+}
+.alle {
+	position: absolute;
+	margin: 0px;
+	width: 1000px;
+	top: 1250px;
+}
+.ons {
+	margin-top: 1300px;
+	width: 600px;
+	font-size: 34px;
+}
+.fas{
+	padding-left: 0px;
 
+}
+.far{
+	float: left;
+}
+footer {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+.footertext {
+	position: relative;
+	top: 130px;
+	width: 429px;
+}
+
+.footertext > h2 {
+	color: #222931;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.footertext > p {
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+	color: #5f656d;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+.footerinfo {
+	position: absolute;
+	right: 200px; 
+	top: 128px;
+}
+.footerinfo > div > i {
+	color: #aeb6be;
+}
+
+.footerinfo > div > p {
+	margin: 20px;
+	padding: 0px;
+}
